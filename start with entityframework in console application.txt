@@ -1,0 +1,13 @@
+Steps:
+
+Install-package Microsoft.EntityFrameworkCore.SqlServer
+Install-package Microsoft.EntityFrameworkCore.Tools
+
+
+Step 2: Create model class and db context class 
+
+Step 3:TO migrate the entity create in application to database
+
+Add-Migration InitialMigration
+
+Step 3:Update-Database
